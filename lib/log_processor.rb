@@ -72,7 +72,7 @@ class LogProcessor
     when /^\[SEVERE\] \[Minecraft\] This crash report has been saved to/
       terminate!
       event 'fatal_error', reason: line
-      
+
     when /^\[SEVERE\] \[Minecraft\] Could not save crash report to/
       terminate!
       event 'fatal_error', reason: line
