@@ -19,6 +19,7 @@ $build = File.expand_path('../..', __FILE__)
 
 # setup working directory
 bash <<-EOS
+  rm -rf config coremods mods lib
   rsync --ignore-existing --recursive #{$build}/tekkit/ .
 EOS
 

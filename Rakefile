@@ -2,7 +2,7 @@ task :default => :start
 
 $build_dir = File.expand_path("~/funpacks/tekkit-lite/build")
 $cache_dir = File.expand_path("~/funpacks/tekkit-lite/cache")
-$working_dir = File.expand_path("~/funpacks/tekkit-lite/working")
+$working_dir = File.expand_path(ENV['WORKING'] || "~/funpacks/tekkit-lite/working")
 
 task :start do
   system %Q{
