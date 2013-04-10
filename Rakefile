@@ -17,6 +17,7 @@ task :start do
       {
         "name": "Tekkit Lite!",
         "settings": {
+          "max-players": 22,
           "blacklist": "atnan",
           "gamemode": 2,
           "ops": "whatupdave\\nchrislloyd",
