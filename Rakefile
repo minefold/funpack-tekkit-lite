@@ -16,6 +16,7 @@ task :start do
     File.write "data.json", <<-EOS
       {
         "name": "Tekkit Lite!",
+        "access": { "whitelist": [] },
         "settings": {
           "max-players": 22,
           "blacklist": "atnan",
