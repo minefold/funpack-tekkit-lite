@@ -9,7 +9,7 @@ cache=$(cd "$2/" && pwd)
 funpack=$(cd $(dirname $0)/.. && pwd)
 
 # tl
-tl_ver="0.6.1"
+tl_ver="0.6.4"
 tl_url="http://mirror.technicpack.net/Technic/servers/tekkitlite/Tekkit_Lite_Server_$tl_ver.zip"
 
 if test -d $cache/tl-$tl_ver
